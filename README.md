@@ -82,7 +82,7 @@ Add relevant screenshots or GIFs here to showcase the project. Example:
 
 For any inquiries or feedback, feel free to contact me at:
 - **Name**: Himanshu Jayswal
-- **Email**: [your-himanshujayswal2006@gmail.com]
+- **Email**: [himanshujayswal2006@gmail.com]
 - **GitHub**: [https://github.com/himanshujays29]
 
 ---
