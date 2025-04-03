@@ -1,0 +1,84 @@
+
+/* install style */
+
+.install{
+    background: linear-gradient(0deg, #f79bd2, #5eac96 70%);
+    height: 76%;
+    width: 102%;
+    border-radius: 7px;
+    position: relative;
+}
+
+
+.ins-con{
+    background: url("../assets/Install/img.png");
+    background-size: cover;
+    height: 94%;
+    width: 94%;
+    left: 35px;
+    position: absolute;
+}
+
+.ins-con{
+    display: flex;
+}
+
+.down-img{
+    height:450px;
+}
+
+.logo-txt{
+    margin: 15px 0 -17px 0;
+    display: flex;
+}
+
+.logo-txt img{
+    height: 23px;
+    margin: 19px 3px 0px 0px;
+}
+
+.logo-txt p{
+    font-size: 19px;
+    font-weight: 800;
+    color: black;
+}
+.logo-txt p sup{
+    margin-left: -3px;
+    color: black;
+    font-size: 4px;
+}
+
+.ins-text{
+    margin: 60px 0px 0px 50px;
+}
+
+.down-txt{
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.ins-para{
+    color: black;
+    font-size: 16px;
+    font-weight: 520;
+}
+
+.in-img{
+    margin-top: 15px;
+    height: 45px;
+}
+
+.in-link{
+    font-weight: 600;
+    font-size: 11px;
+    color: black;
+}
+.in-link:hover{
+    text-decoration: underline;
+}
+
+.ins-img{
+    height: 450px;
+    margin: 29px -162px 0 0;
+}

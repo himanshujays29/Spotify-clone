@@ -1,0 +1,655 @@
+
+
+/* primium */
+
+.pre-hero {
+  height: 300px;
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)),
+    linear-gradient(78.87deg, #b00d6e -3.32%, #004695 112.02%);
+  display: flex;
+  justify-content: center;
+}
+
+.pre-hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.pre-hero-heading {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.pre-hero-para1 {
+  font-size: 14px;
+  font-weight: 520;
+  margin-top: -7px;
+}
+
+.pre-hero-btn {
+  margin-top: 10px;
+}
+
+.pre-hero-btn1 {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  height: 2.7rem;
+  width: 13rem;
+  font-size: 15px;
+  word-spacing: -2px;
+  margin-right: 15px;
+}
+
+.hov:hover {
+  transform: scale(1.04);
+  opacity: 1;
+}
+
+.pre-hero-btn2 {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  height: 2.7rem;
+  width: 9rem;
+  font-size: 15px;
+  word-spacing: -2px;
+}
+
+.pre-hero-para2 {
+  font-size: 10px;
+  margin-top: 20px;
+  font-weight: 510;
+}
+
+.pre-hero-para2 u {
+  cursor: pointer;
+}
+
+.pre-text-content {
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+}
+
+.pre-text-content-heading {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.pre-text-content-para {
+  font-size: 14px;
+  font-weight: 520;
+  margin-top: -10px;
+}
+
+.pre-brands {
+  text-align: center;
+  padding: 25px 0px 20px 0px;
+}
+
+.pre-brands a {
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 540;
+}
+
+.pre-brand-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.bcolor {
+  background-color: white;
+  height: 30px;
+  width: 45px;
+  border-radius: 5px;
+  padding: 2px;
+  margin-right: 7px;
+}
+
+.pre-brand-img-upi img {
+  height: 30px;
+  width: 40px;
+}
+.pre-brand-img-Phonepe img {
+  height: 30px;
+  width: 43px;
+}
+.pre-brand-img-gpay img {
+  height: 30px;
+  width: 43px;
+}
+.pre-brand-img-paytm img {
+  height: 30px;
+  width: 43px;
+}
+
+.pre-include {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px 40px;
+}
+
+.pre-include-heading {
+  display: flex;
+  align-items: center;
+}
+
+.pre-include-heading h2 {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.pre-include-list {
+  margin-left: 25px;
+}
+
+.pre-include-list-li {
+  display: flex;
+  padding-bottom: 1px;
+}
+
+.pre-include-list-li li {
+  list-style: none;
+  font-size: 13px;
+  padding-left: 8px;
+  font-weight: 530;
+}
+
+.pre-include-list-li i {
+  font-size: 1.3rem;
+}
+
+/* Plan Cards */
+
+.pre-plans-con {
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 0 32px 72px;
+  display: flex;
+  justify-content: center;
+}
+
+.pre-plan-card {
+  width: 290px;
+  padding: 0 10px 10px 10px;
+  background-color: #232323;
+  border-radius: 15px;
+}
+
+/* Card 1 */
+
+.card1-pre-plan-logo {
+  margin: 30px 0 0 2px;
+  display: flex;
+  align-items: center;
+}
+
+.card1-pre-plan-logo-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.card1-pre-plan-logo-text {
+  font-size: 15px;
+  font-weight: 530;
+}
+
+.card1-pre-plans-heading {
+  font-weight: 700;
+  font-size: 27px;
+  color: #cff56a;
+  margin: -3px 0 10px 2px;
+}
+
+.card1-pre-plans-prize {
+  margin-top: 0;
+  font-weight: 670;
+  font-size: 13.3px;
+  margin: 12px 0 0 2px;
+}
+
+.card1-plan-line {
+  width: 95%;
+  /* height: 40%; */
+  margin-left: 7px;
+  border-top: 1px solid #ffffff;
+  opacity: 0.2;
+  margin: 28px 0 20px 0;
+}
+
+.card1-pre-plans-list{
+  margin: 25px 0 20px 0;
+}
+
+.card1-pre-plans-list-items {
+  font-size: 12.8px;
+  font-weight: 550;
+  margin: 0 0 5px -22px;
+}
+
+
+.card1-pre-plans-btn {
+  margin: 10px 0 0 5px;
+  border: none;
+  height: 45px;
+  width: 280px;
+  font-size: 15px;
+  border-radius: 30px;
+  font-weight: 550;
+  background-color: #caef63;
+}
+
+.card1-pre-plan-footer{
+  text-align: center;
+  font-weight: 550;
+  font-size: 9px;
+  color: #b3b3b3;
+}
+
+.pre-plans-tc {
+  text-align: center;
+  font-weight: 550;
+  font-size: 9px;
+  color: #b3b3b3;
+  text-decoration: underline;
+}
+
+.card1-pre-link{
+  margin: 13px 0 0 0;
+}
+
+
+
+/* Card 2*/
+
+.card2-pre-plan-logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.card2-pre-plan-logo-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.card2-pre-plan-logo-text {
+  font-size: 15px;
+  font-weight: 530;
+}
+.card2-pre-plans-list{
+  margin: 40px 0 25px 0;
+}
+
+.card2-pre-plans-heading {
+  font-weight: 700;
+  font-size: 27px;
+  color: #ffd2d7;
+  margin: -3px 0 10px 2px;
+}
+
+.card2-pre-plans-prize {
+  margin-top: 0;
+  font-weight: 670;
+  font-size: 13.3px;
+}
+
+.card2-plan-line {
+  width: 95%;
+  /* height: 40%; */
+  margin-left: 7px;
+  border-top: 1px solid #ffffff;
+  opacity: 0.2;
+}
+
+.card2-pre-plans-list-items {
+  font-size: 12.8px;
+  font-weight: 550;
+  margin: 0 0 5px -20px;
+}
+
+
+.card2-pre-plans-btn {
+  border: none;
+  height: 45px;
+  width: 280px;
+  font-size: 15px;
+  border-radius: 30px;
+  font-weight: 550;
+  background-color: #ffd2d7;
+  margin: 25px 0 0 5px;
+}
+
+#card2-pre-link {
+  display: flex;
+  justify-content: center;
+}
+
+.card2-pre-plan-head{
+  background-color: #ffd2d7;
+  padding: 7px;
+  width: 132px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 0 -10px;
+  border-radius: 10px 0 10px 0;
+}
+
+.card2-pre-plans-prize-time{
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: 730;
+  margin-top: -10px;
+}
+
+.card2-pre-plan-footer{
+  text-align: center;
+  font-weight: 550;
+  font-size: 9px;
+  color: #b3b3b3;
+}
+
+/* Card 3 */
+
+.card3-pre-plan-logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.card3-pre-plan-logo-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.card3-pre-plan-logo-text {
+  font-size: 15px;
+  font-weight: 530;
+}
+
+.card3-pre-plans-heading {
+  font-weight: 700;
+  font-size: 27px;
+  color: #a5bbd1;
+  margin: -3px 0 10px 2px;
+}
+
+.card3-pre-plans-prize {
+  margin-top: 0;
+  font-weight: 670;
+  font-size: 13.3px;
+}
+
+.card3-plan-line {
+  width: 95%;
+  /* height: 40%; */
+  margin-left: 7px;
+  border-top: 1px solid #ffffff;
+  opacity: 0.2;
+}
+
+.card3-pre-plans-list{
+  margin: 30px 0 30px 0;
+}
+
+.card3-pre-plans-list-items {
+  font-size: 12.8px;
+  font-weight: 550;
+  margin: 0 0 5px -20px;
+}
+
+
+.card3-pre-plans-btn {
+  margin: 8px 0 0 5px;
+  border: none;
+  height: 45px;
+  width: 280px;
+  font-size: 15px;
+  border-radius: 30px;
+  font-weight: 550;
+  background-color: #a5bbd1;
+}
+
+#card3-pre-link {
+  display: flex;
+  justify-content: center;
+}
+
+.card3-pre-plan-head{
+  background-color: #a5bbd1;
+  padding: 7px;
+  width: 132px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 0 -10px;
+  border-radius: 10px 0 10px 0;
+}
+
+.card3-pre-plans-prize-time{
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: 730;
+  margin-top: -10px;
+}
+
+.card3-pre-plan-footer{
+  text-align: center;
+  font-weight: 550;
+  font-size: 9px;
+  margin-bottom: 0;
+  color: #b3b3b3;
+}
+
+/* Card 4 */
+
+.card4-pre-plan-logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.card4-pre-plan-logo-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.card4-pre-plan-logo-text {
+  font-size: 15px;
+  font-weight: 530;
+}
+
+.card4-pre-plans-heading {
+  font-weight: 700;
+  font-size: 27px;
+  color: #ffc862;
+  margin: -3px 0 10px 2px;
+}
+
+.card4-pre-plans-prize {
+  margin-top: 0;
+  font-weight: 670;
+  font-size: 13.3px;
+}
+
+.card4-plan-line {
+  width: 95%;
+  /* height: 40%; */
+  margin-left: 7px;
+  border-top: 1px solid #ffffff;
+  opacity: 0.2;
+}
+.card4-pre-plans-list{
+  margin: 25px 0 25px 0;
+}
+
+.card4-pre-plans-list-items {
+  font-size: 12.8px;
+  font-weight: 550;
+  margin: 0 0 5px -20px;
+}
+
+
+.card4-pre-plans-btn {
+  margin: 2px 0 0 5px;
+  border: none;
+  height: 45px;
+  width: 280px;
+  font-size: 15px;
+  border-radius: 30px;
+  font-weight: 550;
+  background-color: #ffc862;
+}
+
+#card4-pre-link {
+  display: flex;
+  justify-content: center;
+}
+
+.card4-pre-plan-head{
+  background-color: #ffc862;
+  padding: 7px;
+  width: 132px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 0 -10px;
+  border-radius: 10px 0 10px 0;
+}
+
+.card4-pre-plans-prize-time{
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: 730;
+  margin-top: -10px;
+}
+
+.card4-pre-plan-footer{
+  text-align: center;
+  font-weight: 550;
+  font-size: 9px;
+  color: #b3b3b3;
+}
+
+
+/* Card 5 */
+
+.card5-pre-plan-logo {
+  display: flex;
+  align-items: center;
+}
+
+
+.card5-pre-plan-logo-img {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.card5-pre-plan-logo-text {
+  font-size: 15px;
+  font-weight: 530;
+}
+
+.card5-pre-plans-heading {
+  font-weight: 700;
+  font-size: 27px;
+  color: #c4b1d4;
+  margin: -3px 0 10px 2px;
+}
+
+.card5-pre-plans-prize {
+  margin-top: 0;
+  font-weight: 670;
+  font-size: 13.3px;
+}
+
+.card5-plan-line {
+  width: 95%;
+  /* height: 40%; */
+  margin-left: 7px;
+  border-top: 1px solid #ffffff;
+  opacity: 0.2;
+}
+
+.card5-pre-plans-list-items {
+  font-size: 12.8px;
+  font-weight: 550;
+  margin: 0 0 5px -20px;
+}
+
+
+.card5-pre-plans-btn {
+  margin-left: 5px;
+  border: none;
+  height: 45px;
+  width: 280px;
+  font-size: 15px;
+  border-radius: 30px;
+  font-weight: 550;
+  background-color: #c4b1d4;
+}
+
+#card5-pre-link {
+  display: flex;
+  justify-content: center;
+}
+
+.card5-pre-plan-head{
+  background-color: #c4b1d4;
+  padding: 7px;
+  width: 132px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: black;
+  margin: 0 0 0 -10px;
+  border-radius: 10px 0 10px 0;
+}
+
+.card5-pre-plans-prize-time{
+  color: #b3b3b3;
+  font-size: 12px;
+  font-weight: 730;
+  margin-top: -10px;
+}
+
+.card5-pre-plan-footer{
+  text-align: center;
+  font-weight: 550;
+  font-size: 9px;
+  color: #b3b3b3;
+}
+
+.pre-plan-exp{
+  padding-top: 5px;
+  text-align: center;
+}
+
+.pre-plan-exp h1{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.pre-plan-exp p{
+  font-size: 14px;
+  margin-top: -8px;
+  font-weight: 530;
+}

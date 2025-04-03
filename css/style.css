@@ -142,6 +142,10 @@ a {
     width: fit-content;
 }
 
+.bcol{
+    color: black;
+}
+
 .dark-badge {
     background-color: black;
     color: #fff;
@@ -158,6 +162,7 @@ a {
     align-items: center;
     padding: 1rem 0 1rem 0;
     z-index: 5;
+    width: 103%;
 }
 
 .sticky-nav-icon {
@@ -168,6 +173,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 80px;
 }
 
 .sticky-nav-options button {
@@ -217,17 +223,39 @@ a {
 .footer {
     height: 250px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .line {
-    width: 90%;
+    width: 100%;
     height: 40%;
     border-top: 1px solid #ffffff;
     opacity: 0.3;
+    margin-top: 70px;
+    margin-bottom: -80px;
 }
 
+
+.footer-para{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.foot-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-link{
+    font-size: 12px;
+    font-weight: 510;
+    color: gray;
+}
+
+.foot-link:hover{
+    color: #fff;
+}
 /* Music - player */
 
 .music-player {
@@ -383,3 +411,22 @@ a {
     border-radius: 50%;
     margin-top: -5px;
 }
+
+.dis{
+    display: none;
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(0deg, rgba(128, 128, 128, 0.916) , rgba(128, 128, 128, 0.714) );
+    border-radius: 10px;
+}
+
